@@ -1,11 +1,11 @@
 library(dplyr)
 library(data.table)
 library(reshape2)
+library(causalimpact)
 options(scipen = 9999)
 
 
 ###
-#source("~/Downloads/synth_ctrl_fun.R")
 setwd("~/Downloads/")
 
 file1 <- fread('2024-08-21 2_25pm.csv', header = T, sep = ",")
