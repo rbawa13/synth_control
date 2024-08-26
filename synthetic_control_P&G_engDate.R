@@ -1,7 +1,7 @@
 library(dplyr)
 library(data.table)
 library(reshape2)
-library(causalimpact)
+library(CausalImpact)
 options(scipen = 9999)
 
 
